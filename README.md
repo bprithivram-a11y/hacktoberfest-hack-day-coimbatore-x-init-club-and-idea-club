@@ -66,12 +66,16 @@ appear to be emerging or becoming more significant**.
 
 The goal is to transform scattered student reports into a clearer,
 data-driven view of campus problems and enable earlier, more informed action.
-### Key Features
 
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
-- [Feature 4]
+## Key Features
+
+- **Natural-language problem reporting** — Students simply describe their problem instead of navigating complex forms.
+- **AI-powered complaint understanding** — Gemma 4B analyzes each report and extracts department, issue, location, time, severity, summary, and key themes.
+- **Department-wise intelligence dashboard** — Reports are automatically organized into areas such as Food, Hostel, Transport, Wi-Fi, Academics, Infrastructure, and Cleanliness.
+- **Emerging problem detection** — The system groups related reports and identifies recurring or rapidly increasing problem patterns.
+- **Evidence-based problem insights** — Administrators can view report counts, trends, common themes, and representative student reports behind a detected problem.
+- **Local AI processing** — Gemma runs through Ollama locally, reducing the need to send sensitive student feedback to external AI services.
+
 
 ## Innovation and Differentiation
 
