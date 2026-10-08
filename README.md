@@ -66,7 +66,6 @@ appear to be emerging or becoming more significant**.
 
 The goal is to transform scattered student reports into a clearer,
 data-driven view of campus problems and enable earlier, more informed action.
-
 ## Key Features
 
 - **Natural-language problem reporting** — Students simply describe their problem instead of navigating complex forms.
