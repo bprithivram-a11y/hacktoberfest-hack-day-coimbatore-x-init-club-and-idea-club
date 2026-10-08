@@ -73,15 +73,17 @@ data-driven view of campus problems and enable earlier, more informed action.
 - **Department-wise intelligence dashboard** — Reports are automatically organized into areas such as Food, Hostel, Transport, Wi-Fi, Academics, Infrastructure, and Cleanliness.
 - **Emerging problem detection** — The system groups related reports and identifies recurring or rapidly increasing problem patterns.
 - **Evidence-based problem insights** — Administrators can view report counts, trends, common themes, and representative student reports behind a detected problem.
-- **Local AI processing** — Gemma runs through Ollama locally, reducing the need to send sensitive student feedback to external AI services.
-
+- **AI-powered problem investigation** — Once an emerging problem is detected, Gemma analyzes the collected evidence to identify observed patterns, possible contributing factors, affected groups, and recommended investigation steps. The system clearly separates verified evidence from possible hypotheses, helping administrators investigate the underlying problem rather than simply viewing complaints.
 
 ## Innovation and Differentiation
 
-Unlike conventional complaint systems that simply collect and display individual
-student reports, **Problem Pattern Detector** uses AI to understand and
-standardize naturally written complaints into structured problem information.
+Unlike conventional complaint systems that simply collect and display individual student reports, Problem Pattern Detector uses AI to understand and standardize naturally written complaints into structured problem information.
 
+The system then analyzes these reports collectively to identify related issues, recurring patterns, and emerging problems across departments and locations. This shifts the workflow from individual complaint tracking to automated campus-level problem intelligence, helping administrators identify significant issues earlier and prioritize them based on evidence and trends.
+
+**AI-powered investigation adds another layer beyond detection.** When a significant problem is identified, Gemma analyzes the available evidence and generates an investigation brief containing the strongest observed patterns, possible contributing factors, affected groups, and recommended next steps. This allows administrators to move from **“What problems are being reported?”** to **“What does the available evidence suggest, and what should we investigate next?”**
+
+The system does not allow the AI to invent statistics or evidence. Report counts, trends, and other measurable information are calculated by the system, while Gemma is used to interpret the collected evidence and generate investigation insights. This creates a more reliable and evidence-based AI workflow.
 The system then analyzes these reports collectively to identify related issues,
 recurring patterns, and emerging problems across departments and locations.
 This shifts the workflow from **individual complaint tracking to automated
