@@ -2,7 +2,7 @@
 
 > [The idea is to build an AI-powered system for colleges where students can report problems through a simple terminal, and the college gets an intelligent dashboard that automatically discovers emerging problems from all those reports.]
 
-## Team
+## Team VANTAGE
 
 **Team Name:** VANTAGE
 
@@ -78,13 +78,36 @@ data-driven view of campus problems and enable earlier, more informed action.
 
 ## Innovation and Differentiation
 
-[Explain what is innovative about the approach and how it differs from existing or conventional solutions.]
+Unlike conventional complaint systems that simply collect and display individual
+student reports, **Problem Pattern Detector** uses AI to understand and
+standardize naturally written complaints into structured problem information.
 
-## Technical Implementation
-
+The system then analyzes these reports collectively to identify related issues,
+recurring patterns, and emerging problems across departments and locations.
+This shifts the workflow from **individual complaint tracking to automated
+campus-level problem intelligence**, helping administrators identify significant
+issues earlier and prioritize them based on evidence and trends.
 ### Architecture
 
-[Add the system architecture or workflow Mermaid diagram here.]
+```mermaid
+flowchart TD
+    A[Student] --> B[Student Reporting Interface]
+    B --> C[Python Backend API]
+    C --> D[Ollama]
+    D --> E[Gemma 4B]
+
+    E --> F[Structured Problem Data]
+
+    F --> G[SQLite Database]
+    G --> H[Pattern Detection Engine]
+
+    H --> I[Department-wise Analysis]
+    H --> J[Emerging Problem Detection]
+    H --> K[Trend and Severity Analysis]
+
+    I --> L[Admin Intelligence Dashboard]
+    J --> L
+    K --> L
 
 ### Technology Stack
 
