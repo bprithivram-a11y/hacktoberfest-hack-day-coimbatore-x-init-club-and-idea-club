@@ -93,10 +93,6 @@ issues earlier and prioritize them based on evidence and trends.
 
 ### Architecture
 
-## Technical Implementation
-
-### Architecture
-
 ```mermaid
 flowchart TD
     A[Student] --> B[Student Complaint Portal]
@@ -114,30 +110,51 @@ flowchart TD
     K --> M
     L --> M
 ```
-| Category        | Technologies                |
-| --------------- | --------------------------- |
-| Frontend        | [Technologies / N/A]        |
-| Backend         | [Technologies / N/A]        |
-| Database        | [Technologies / N/A]        |
-| AI / ML         | [Models / frameworks / N/A] |
-| Infrastructure  | [Technologies / N/A]        |
-| APIs / Services | [Services / N/A]            |
+### Technology Stack
 
-
-If a category or technology is not implemented in the project, specify `N/A` instead of leaving the field blank.
+| Category        | Technologies |
+| --------------- | ------------ |
+| Frontend        | Next.js, React, TypeScript, Tailwind CSS |
+| Backend         | Python, FastAPI |
+| Database        | SQLite |
+| AI / ML         | Gemma 4B, Ollama |
+| Infrastructure  | Local development environment |
+| APIs / Services | Ollama Local API |
 
 ### How It Works
 
-[Explain the major components of the system and how they interact.]
+Students submit campus problems in natural language through the web interface.
+The Python backend sends each report to Gemma 4B through the local Ollama API,
+which extracts structured information such as department, issue, location,
+severity, time, summary, and key themes.
+
+The structured reports are stored in SQLite and analyzed by the pattern detection
+layer to group related issues, measure report frequency, and identify recurring
+or emerging problem trends. The administrator dashboard then presents these
+insights department-wise along with supporting reports, severity, and trend data.
 
 ### Technical Decisions
 
-[Explain important architectural, algorithmic, or engineering decisions made during development.]
+Gemma is used specifically for natural-language understanding and structured
+information extraction, while deterministic backend logic handles aggregation,
+grouping, counting, and trend calculations. This separation improves
+predictability and makes the pattern detection process easier to validate.
+
+Ollama is used to run Gemma locally, avoiding dependency on external AI APIs and
+allowing student reports to be processed within the local environment. SQLite
+was selected for lightweight, reliable storage suitable for the hackathon
+prototype.
 
 ## Implementation During the Hackathon
 
-[Describe what the team built during the Hack Day and the major functionality or components completed during the event.]
+During the Hack Day, we developed a working prototype of the Problem Pattern
+Detector with a student-facing reporting interface and an administrator
+intelligence dashboard.
 
+The implemented workflow covers natural-language problem submission, AI-based
+complaint classification using Gemma 4B and Ollama, structured data storage,
+department-wise organization, recurring and emerging pattern detection, trend
+analysis, and visualization of problem insights for administrators.
 ### Team Contributions
 
 - **[Member Name]:** [Contribution]
