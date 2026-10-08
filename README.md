@@ -170,7 +170,7 @@ The application can be run locally with the Next.js frontend, Python FastAPI bac
 
 ## Demo Video
 
-**Demo Video:** [YouTube Video URL]
+**Demo Video:** [https://youtu.be/k9qRPIVz8io]
 
 The demo demonstrates the complete workflow of Problem Pattern Detector, including natural-language complaint submission, AI-based complaint understanding using Gemma 4B, structured complaint storage, pattern detection, and visualization through the admin intelligence dashboard.
 
