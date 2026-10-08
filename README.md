@@ -1,34 +1,71 @@
-# [Project Name]
+#  PROBLEM PATTERN DETECTOR 
 
-> [One-line description of the project and what it does.]
+> [The idea is to build an AI-powered system for colleges where students can report problems through a simple terminal, and the college gets an intelligent dashboard that automatically discovers emerging problems from all those reports.]
 
 ## Team
 
-**Team Name:** [Team Name]
+**Team Name:** VANTAGE
 
 
 | Member | Contribution   |
 | ------ | -------------- |
-| [prithivram] | [Contribution] |
-| [Name] | [Contribution] |
-| [Name] | [Contribution] |
-| [Name] | [Contribution] |
+| Prithivram | GITHUB REPO |
+| Darshan B | FRONT END DEVELOPMENT |
+| Badma sree vignesh  | BACKEND DEVELOPMENT |
+| Dinesh raj R | PATTERN DETECTION AI TRAINING |
 
 
 ## Problem Statement
 
 ### The Problem
 
-[Describe the problem being addressed, who is affected by it, and the context in which it occurs.]
+College students face a wide range of day-to-day problems, including infrastructure
+issues, overcrowded facilities, transport difficulties, maintenance problems,
+academic bottlenecks, and other recurring campus concerns. Most colleges already
+have ways for students to report these problems, but the reports are usually
+treated as individual complaints.
+
+This creates a larger problem: the important information hidden across many
+individual reports is difficult to identify manually. Ten students reporting
+different symptoms may actually be describing the same underlying issue, while a
+new problem may gradually grow across the campus without being recognized early.
+
+As the number of students and reports increases, manually identifying recurring
+patterns, detecting emerging issues, understanding their severity, and deciding
+which problems need attention becomes increasingly difficult.
 
 ### Why We Chose This Problem
 
-[Explain why the team selected this problem and why solving it is important.]
+We chose this problem because student experiences contain valuable information
+about what is actually happening on a campus, yet those experiences often remain
+fragmented across individual complaints and reports.
+
+We believe the challenge is not simply collecting more complaints, but making
+sense of the information that already exists. An intelligent system should be
+able to look across reports, recognize connections between seemingly different
+complaints, identify recurring and emerging problems, and help administrators
+understand what requires attention.
+
+Our goal is to bridge the gap between **individual student experiences and
+campus-level decision making**.
 
 ## Solution
 
-[Describe the proposed solution and how it addresses the problem.]
+**Problem Pattern Detector** is an AI-powered system designed to discover
+meaningful patterns from student problem reports.
 
+Students can submit problems through a simple reporting interface using natural
+language. Instead of treating each report independently, the system analyzes
+reports collectively to identify related complaints, recurring issues, emerging
+patterns, and potential areas of concern.
+
+These insights are presented through an intelligent dashboard for college
+administrators, helping them understand **what problems are occurring, where
+they are occurring, how frequently they are being reported, and which issues
+appear to be emerging or becoming more significant**.
+
+The goal is to transform scattered student reports into a clearer,
+data-driven view of campus problems and enable earlier, more informed action.
 ### Key Features
 
 - [Feature 1]
