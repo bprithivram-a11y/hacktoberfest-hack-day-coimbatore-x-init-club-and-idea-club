@@ -7,12 +7,12 @@
 **Team Name:** VANTAGE
 
 
-| Member | Contribution   |
-| ------ | -------------- |
-| Prithivram | GITHUB REPO |
-| Darshan B | FRONT END DEVELOPMENT |
-| Badma sree vignesh  | BACKEND DEVELOPMENT |
-| Dinesh raj R | PATTERN DETECTION AI TRAINING |
+| Member | Contribution |
+| ------ | ------------ |
+| Prithivram | GitHub Repository & Project Integration |
+| Darshan B | Frontend Development & UI Implementation |
+| Badma Sree Vignesh | Backend Development, API & Database Integration |
+| Dinesh Raj R | AI Prompt Design & Pattern Detection Development |
 
 
 ## Problem Statement
@@ -157,108 +157,55 @@ department-wise organization, recurring and emerging pattern detection, trend
 analysis, and visualization of problem insights for administrators.
 ### Team Contributions
 
-- **[Member Name]:** [Contribution]
-- **[Member Name]:** [Contribution]
-- **[Member Name]:** [Contribution]
-- **[Member Name]:** [Contribution]
+- **Prithivram:** GitHub repository management and project integration
+- **Darshan B:** Frontend development and UI implementation
+- **Badma Sree Vignesh:** Backend development, API and database integration
+- **Dinesh Raj R:** AI prompt design and pattern detection development
 
 ## Working Application
 
-**Live Application:** [Live URL]
+**Live Application:** N/A — The prototype is currently designed to run locally.
 
-[Briefly explain how the deployed application can be accessed and what functionality can be tested.]
-
-The submitted application should be functional and accessible through the provided link where applicable.
+The application can be run locally with the Next.js frontend, Python FastAPI backend, SQLite database, and Ollama with Gemma 4B. Users can submit campus complaints through the student portal, while administrators can view structured reports, emerging problems, trends, and department-wise insights through the dashboard.
 
 ## Demo Video
 
-**Demo Video:** [Video URL]
+**Demo Video:** [YouTube Video URL]
 
-[Provide a short demonstration of the working project, covering the main user flow and important functionality.]
+The demo demonstrates the complete workflow of Problem Pattern Detector, including natural-language complaint submission, AI-based complaint understanding using Gemma 4B, structured complaint storage, pattern detection, and visualization through the admin intelligence dashboard.
 
 ## Open Source and AI Usage
 
 ### AI / Models
 
-- **[Model]:** [How it is used]
+- **Gemma 4B:** Used for understanding natural-language student complaints and extracting structured information such as department, issue, location, time, severity, short summary, and key themes.
+- **Ollama:** Used as the local runtime for running the Gemma 4B model.
 
 ### Open Source Components
 
-- **[Library / Framework]:** [Purpose]
-- **[Dataset]:** [Purpose]
-- **[API / Service]:** [Purpose]
-
-[Include relevant licenses, attribution, and acknowledgements for external components.]
+- **Next.js / React:** Frontend application and user interface.
+- **FastAPI:** Python backend API and communication layer.
+- **SQLite:** Lightweight database for storing structured complaint data.
+- **Ollama:** Local AI model runtime.
+- **Python:** Backend processing, aggregation, grouping, pattern detection, and trend analysis.
+- **Dataset:** N/A — The prototype does not use a separate external dataset.
 
 ## Setup and Usage
 
 ### Prerequisites
 
-- [Requirement]
-- [Requirement]
+- Node.js and npm
+- Python 3.x
+- Ollama
+- Gemma 4B model
 
 ### Installation
 
 ```bash
 git clone [repository-url]
 cd [project-directory]
-[installation-command]
-```
 
-### Environment Variables
+npm install
 
-```env
-[VARIABLE_NAME]=[value]
-```
-
-
-
-### Running the Project
-
-```bash
-[run-command]
-```
-
-### Usage
-
-[Explain the basic steps required to use the project.]
-
-## Devpost Submission
-
-**Devpost Project:** [Devpost Project URL]
-
-[Add the link to the team's Devpost submission. Ensure the Devpost project page is complete and contains the required project information, links, media, and team details.]
-
-## Credits and License
-
-### Credits
-
-[Credit libraries, frameworks, datasets, models, APIs, contributors, and other external resources used.]
-
-### License
-
-[License name and/or link.]
-
-## Submission Checklist
-
-- [ ] Project title and description added
-- [ ] All team members listed
-- [ ] Problem clearly explained
-- [ ] Reason for choosing the problem explained
-- [ ] Solution and key features documented
-- [ ] Innovation and differentiation explained
-- [ ] Architecture included
-- [ ] Technical implementation documented
-- [ ] Work completed during the hackathon documented
-- [ ] Team contributions documented
-- [ ] Working application is functional
-- [ ] Live application link added where applicable
-- [ ] Demo video added
-- [ ] AI and open-source components documented
-- [ ] Setup and usage instructions tested
-- [ ] Challenges and learnings documented
-- [ ] Devpost submission completed
-- [ ] Devpost link added
-- [ ] Credits added
-- [ ] License added
-- [ ] Repository is organized and complete
+cd backend
+pip install -r requirements.txt
