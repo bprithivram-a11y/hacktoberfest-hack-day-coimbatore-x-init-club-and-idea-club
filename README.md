@@ -9,7 +9,7 @@
 
 | Member | Contribution   |
 | ------ | -------------- |
-| [Name] | [Contribution] |
+| [prithivram] | [Contribution] |
 | [Name] | [Contribution] |
 | [Name] | [Contribution] |
 | [Name] | [Contribution] |
