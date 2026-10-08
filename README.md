@@ -89,29 +89,31 @@ campus-level problem intelligence**, helping administrators identify significant
 issues earlier and prioritize them based on evidence and trends.
 ### Architecture
 
+## Technical Implementation
+
+### Architecture
+
+## Technical Implementation
+
+### Architecture
+
 ```mermaid
 flowchart TD
-    A[Student] --> B[Student Reporting Interface]
-    B --> C[Python Backend API]
-    C --> D[Ollama]
-    D --> E[Gemma 4B]
-
-    E --> F[Structured Problem Data]
-
-    F --> G[SQLite Database]
-    G --> H[Pattern Detection Engine]
-
-    H --> I[Department-wise Analysis]
-    H --> J[Emerging Problem Detection]
-    H --> K[Trend and Severity Analysis]
-
-    I --> L[Admin Intelligence Dashboard]
-    J --> L
-    K --> L
-
-### Technology Stack
-
-
+    A[Student] --> B[Student Complaint Portal]
+    B --> C[Next.js Frontend]
+    C --> D[Python Backend API]
+    D --> E[Ollama]
+    E --> F[Gemma 4B]
+    F --> G[Structured Complaint Data]
+    G --> H[SQLite Database]
+    H --> I[Pattern Detection Engine]
+    I --> J[Department-wise Analysis]
+    I --> K[Emerging Problem Detection]
+    I --> L[Trend Analysis]
+    J --> M[Admin Intelligence Dashboard]
+    K --> M
+    L --> M
+```
 | Category        | Technologies                |
 | --------------- | --------------------------- |
 | Frontend        | [Technologies / N/A]        |
